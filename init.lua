@@ -1,6 +1,6 @@
-require ('lua/packerconf')
-require ('lua/lspconf')
-require ('lua/cmpconf')
+require ('packerconf')
+require ('lspconf')
+require ('cmpconf')
 require("nvim-tree").setup{}
 
 local opt = vim.opt
